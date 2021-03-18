@@ -1,0 +1,25 @@
+:root {
+  --primary-orange: #ff3e14;
+}
+
+/* *****************************************************Navbar */
+
+nav {
+  font-family: "Roboto", sans-serif;
+}
+/* *****************************************************Navbar-links */
+
+ul > li {
+  margin-left: 0.938rem;
+  font-size: 1.25rem;
+}
+ul li a.contact {
+  color: var(--primary-orange) !important;
+}
+
+ul > li > a::after {
+  content: "";
+  display: block;
+  height: 0.625rem;
+  width: 0.625rem;
+}
