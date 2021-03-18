@@ -6,20 +6,63 @@
 
 nav {
   font-family: "Roboto", sans-serif;
+  font-size: 1.25rem;
 }
+/* ****************************************************Navbar-title */
+nav .navbar-brand {
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(255, 251, 0, 1) 35%,
+    rgba(0, 243, 255, 1) 58%,
+    rgba(248, 0, 255, 1) 70%,
+    rgba(255, 0, 0, 1) 85%
+  );
+  /* background: -webkit-linear-gradient(#e66465, #9198e5); */
+  background-size: 400% 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient 5s linear infinite alternate;
+
+  font-weight: 800;
+}
+@keyframes gradient {
+  100% {
+    background-position: 100%, 100%;
+  }
+}
+nav .gradient {
+  background-color: linear-gradient(#e66465, #9198e5) !important;
+  z-index: -1;
+}
+
 /* *****************************************************Navbar-links */
 
 ul > li {
   margin-left: 0.938rem;
-  font-size: 1.25rem;
 }
 ul li a.contact {
   color: var(--primary-orange) !important;
 }
+ul li a.nav-link {
+  position: relative;
+}
+ul li a.nav-link:focus {
+  right: 0;
 
-ul > li > a::after {
+  border-bottom: 0.125rem solid var(--primary-orange);
+}
+
+ul li a.nav-link::after {
   content: "";
-  display: block;
-  height: 0.625rem;
-  width: 0.625rem;
+  /* display: block; */
+  position: absolute;
+  right: -900%;
+  bottom: -0.138rem;
+  height: 0.125rem;
+  width: 100%;
+  background-color: var(--primary-orange);
+  transition: 0.3s linear;
+}
+ul li a.nav-link:hover::after {
+  right: 0;
 }

@@ -6,9 +6,10 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container">
-        <a className="navbar-brand" href="#">
-          Navbar
-        </a>
+        <div className="gradient"> </div>
+        <li className="navbar-brand" href="#">
+          Welcome in my world of programming
+        </li>
         <button
           className="navbar-toggler"
           type="button"
@@ -42,6 +43,7 @@ const Navbar = () => {
                 Contact
               </a>
             </li>
+            <span className="nav-indicator"></span>
           </ul>
         </div>
       </div>
