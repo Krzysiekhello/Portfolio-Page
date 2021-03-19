@@ -1,0 +1,109 @@
+:root {
+  --primary-grey: #37474f;
+  --primary-green: #00796b;
+  --primary-cyan: #b2ebf2;
+}
+
+/* ****************************************Header */
+
+.header {
+  position: relative;
+  height: 100vh;
+  background-color: #00796b;
+  font-family: "Roboto", sans-serif;
+  background-repeat: no-repeat;
+}
+
+/* ****************************************Header-texts-div */
+
+.hello-texts-div {
+  position: absolute;
+  top: 35%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  margin-left: 1.25rem;
+}
+/* ****************************************Header-text-h1  */
+.h1 {
+  font-size: 6.25rem;
+}
+
+.hello-header-text.active {
+  color: var(--primary-cyan);
+
+  transition: 0.3s linear;
+}
+/* ****************************************Header-text-h2  */
+.hello-texts-div h2 span {
+  animation: flashingName 4s infinite;
+}
+@keyframes flashingName {
+  0% {
+  }
+  50% {
+  }
+  75% {
+    color: var(--primary-cyan);
+  }
+  100% {
+  }
+}
+/* ****************************************Header-tags */
+.tags .open-tag {
+  position: absolute;
+  left: 1%;
+  top: 25%;
+}
+.tags .close-tag {
+  position: absolute;
+  left: 47%;
+  top: 38%;
+}
+/* ****************************************Header-clock  */
+.clock {
+  position: fixed;
+  right: -1%;
+  top: 10%;
+  transform: translate(-50%, 0);
+  font-size: 1.25rem;
+  font-weight: 800;
+  z-index: 2;
+}
+
+/* ****************************************Header-arrow  */
+
+.double-down {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: 3;
+  color: white;
+  font-size: 3.125rem;
+  animation: bouncingArrow 2s infinite;
+  cursor: pointer;
+}
+@keyframes bouncingArrow {
+  0% {
+    bottom: 10%;
+  }
+  25% {
+    bottom: 8%;
+  }
+  50% {
+    bottom: 9%;
+  }
+  75% {
+    bottom: 8%;
+  }
+  100% {
+    bottom: 10%;
+  }
+}
+/* ****************************************Header-waves  */
+
+.waves {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
