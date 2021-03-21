@@ -9,14 +9,13 @@ import openTag from "../png/opentag.png";
 import waves from "../png/waves.png";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAngleDoubleDown } from "@fortawesome/free-solid-svg-icons";
+import { faAngleDoubleDown, faHeart } from "@fortawesome/free-solid-svg-icons";
 
 const helloWord = "Hello,";
 
 const Header = () => {
   const [letterItem, setLetterItem] = useState(null);
   const helloWordArr = helloWord.split("");
-  console.log(helloWordArr);
 
   const mappedhelloWordArr = helloWordArr.map((el, index) => (
     <span
@@ -35,7 +34,7 @@ const Header = () => {
       duration: 1500,
       delay: 100,
       smooth: " easeOutQuad",
-      // offset: 100,
+      offset: 110,
     });
   };
   return (
@@ -45,7 +44,8 @@ const Header = () => {
       <div className="hello-texts-div">
         <h1 className="h1">{mappedhelloWordArr}</h1>
         <h2>
-          my name is <span>Krzysiek</span> and I love to code
+          my name is <span>Krzysiek</span> and I lo
+          <FontAwesomeIcon className="heart" icon={faHeart} />e to code
         </h2>
       </div>
 

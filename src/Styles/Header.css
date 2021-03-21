@@ -19,7 +19,7 @@
 .hello-texts-div {
   position: absolute;
   top: 35%;
-  left: 25%;
+  left: 26%;
   transform: translate(-50%, -50%);
   margin-left: 1.25rem;
 }
@@ -30,7 +30,6 @@
 
 .hello-header-text.active {
   color: var(--primary-cyan);
-
   transition: 0.3s linear;
 }
 /* ****************************************Header-text-h2  */
@@ -48,20 +47,24 @@
   100% {
   }
 }
+.heart {
+  font-size: 1.375rem;
+}
+
 /* ****************************************Header-tags */
 .tags .open-tag {
   position: absolute;
-  left: 1%;
+  left: 0;
   top: 25%;
 }
 .tags .close-tag {
   position: absolute;
-  left: 47%;
+  left: 50%;
   top: 38%;
 }
 /* ****************************************Header-clock  */
 .clock {
-  position: fixed;
+  position: absolute;
   right: -1%;
   top: 10%;
   transform: translate(-50%, 0);
@@ -104,6 +107,24 @@
 
 .waves {
   position: absolute;
-  left: 0;
+  right: 0;
   bottom: 0;
 }
+
+/* ****************************************Media-queries  */
+
+@media (max-width: 1200px) {
+  .hello-texts-div {
+    position: absolute;
+    top: 35%;
+    left: 32.5%;
+    transform: translate(-50%, -50%);
+    margin-left: 1.25rem;
+  }
+  .tags .close-tag {
+    position: absolute;
+    left: 61.5%;
+    top: 38%;
+  }
+}
+/*  */

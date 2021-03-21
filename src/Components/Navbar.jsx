@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Element, scroller } from "react-scroll";
+import { scroller } from "react-scroll";
 
 import "../Styles/Navbar.css";
 
@@ -10,7 +10,7 @@ const Navbar = () => {
       duration: 1500,
       delay: 100,
       smooth: " easeOutQuad",
-      // offset: 100,
+      offset: 110,
     });
   };
   return (

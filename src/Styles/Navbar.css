@@ -1,12 +1,12 @@
 :root {
   --primary-orange: #ff3e14;
-  --primary-grey: #37474f;
+  /* --primary-black: #222733; */
 }
 
 /* *****************************************************Navbar */
 
 nav {
-  background-color: var(--primary-grey);
+  background-color: var(--primary-black);
   font-family: "Roboto", sans-serif;
   font-size: 1.25rem;
   z-index: 20;
