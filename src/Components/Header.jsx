@@ -23,7 +23,9 @@ const Header = () => {
       onMouseOver={() => setLetterItem(index)}
       onMouseOut={() => setLetterItem(null)}
       className={
-        index === letterItem ? "hello-header-text active" : "hello-header-text"
+        index === letterItem
+          ? `hello-header-text active`
+          : `hello-header-text hello-header-single-letter-${index}`
       }
     >
       {el}

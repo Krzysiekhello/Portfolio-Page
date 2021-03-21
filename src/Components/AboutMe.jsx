@@ -1,6 +1,8 @@
 import React, { useState } from "react";
-import "../Styles/AboutMe.css";
+
 import Buble from "./Buble";
+
+import "../Styles/AboutMe.css";
 
 const AboutMe = () => {
   const [heightOfScrollBar, setHeightOfScrollBar] = useState(null);

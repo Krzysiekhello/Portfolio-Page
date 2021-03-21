@@ -24,7 +24,38 @@
 
 .hello-header-text.active {
   color: var(--primary-cyan);
-  transition: 0.3s linear;
+  transition: 0.3s;
+}
+.hello-header-single-letter-0 {
+  animation: key-up 1s 0.1s ease-in-out;
+}
+.hello-header-single-letter-1 {
+  animation: key-up 1s 0.15s ease-in-out;
+}
+.hello-header-single-letter-2 {
+  animation: key-up 1s 0.2s ease-in-out;
+}
+.hello-header-single-letter-3 {
+  animation: key-up 1s 0.25s ease-in-out;
+}
+.hello-header-single-letter-4 {
+  animation: key-up 1s 0.3s ease-in-out;
+}
+@keyframes key-up {
+  0% {
+    color: black;
+    font-size: 6.25rem;
+  }
+  50% {
+    color: var(--primary-cyan);
+    font-size: 7rem;
+  }
+  70% {
+  }
+  100% {
+    color: black;
+    font-size: 6.25rem;
+  }
 }
 /* ****************************************Header-text-h2  */
 .hello-texts-div h2 span {

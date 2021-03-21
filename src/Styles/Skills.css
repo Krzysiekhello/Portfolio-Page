@@ -10,28 +10,35 @@
   margin: 1.25rem 0 0 1.25rem;
   font-size: 5rem;
 }
-
-.skills-div {
+.skills-container {
   display: flex;
-
   flex-wrap: wrap;
   justify-content: space-between;
   list-style: none;
 }
 .all-skills {
   margin: 10px 0 20px 0;
-  text-align: center;
-  line-height: 50px;
+  text-align: right;
+  line-height: 100px;
   height: 100px;
   width: 23%;
-  font-size: 30px;
+  font-size: 40px;
+  font-weight: 800;
 }
-/* skills animations */
+.all-skills:hover {
+  width: 24%;
+  height: 110px;
+  transition: 0.3s;
+}
+/* **************************************************skills animations */
 .skill-number-0 {
   opacity: 0;
   transition: 1s;
 }
 .skill-number-0-active {
+  background-image: url("../png/hmtl.png");
+  background-repeat: no-repeat;
+  background-size: auto 100%;
   opacity: 1;
 }
 .skill-number-1 {
@@ -39,6 +46,9 @@
   transition: 1s 0.5s;
 }
 .skill-number-1-active {
+  background-image: url("../png/css.png");
+  background-repeat: no-repeat;
+  background-size: auto 100%;
   opacity: 1;
 }
 .skill-number-2 {
@@ -46,6 +56,9 @@
   transition: 1s 1s;
 }
 .skill-number-2-active {
+  background-image: url("../png/JS.png");
+  background-repeat: no-repeat;
+  background-size: auto 100%;
   opacity: 1;
 }
 .skill-number-3 {
@@ -53,6 +66,10 @@
   transition: 1s 1.5s;
 }
 .skill-number-3-active {
+  background-image: url("../png/react.png");
+  background-repeat: no-repeat;
+  background-size: 45% auto;
+  background-position-y: 50%;
   opacity: 1;
 }
 .skill-number-4 {
@@ -60,6 +77,10 @@
   transition: 1s 2s;
 }
 .skill-number-4-active {
+  background-image: url("../png/node.png");
+  background-repeat: no-repeat;
+  background-size: 50% auto;
+  background-position-y: 50%;
   opacity: 1;
 }
 .skill-number-5 {
@@ -67,6 +88,10 @@
   transition: 1s 2.5s;
 }
 .skill-number-5-active {
+  background-image: url("../png/express.png");
+  background-repeat: no-repeat;
+  background-size: 35% auto;
+  background-position-y: 50%;
   opacity: 1;
 }
 .skill-number-6 {
@@ -74,6 +99,10 @@
   transition: 1s 3s;
 }
 .skill-number-6-active {
+  background-image: url("../png/sass.png");
+  background-repeat: no-repeat;
+  background-size: 45% auto;
+  background-position-y: 50%;
   opacity: 1;
 }
 .skill-number-7 {
@@ -81,6 +110,10 @@
   transition: 1s 3.5s;
 }
 .skill-number-7-active {
+  background-image: url("../png/bootstrap.png");
+  background-repeat: no-repeat;
+  background-size: 35% auto;
+  background-position-y: 50%;
   opacity: 1;
 }
 .skill-number-8 {
@@ -88,6 +121,10 @@
   transition: 1s 4s;
 }
 .skill-number-8-active {
+  background-image: url("../png/materialUi.png");
+  background-repeat: no-repeat;
+  background-size: 35% auto;
+  background-position-y: 50%;
   opacity: 1;
 }
 .skill-number-9 {
@@ -95,6 +132,10 @@
   transition: 1s 4.5s;
 }
 .skill-number-9-active {
+  background-image: url("../png/git.png");
+  background-repeat: no-repeat;
+  background-size: 35% auto;
+  background-position-y: 50%;
   opacity: 1;
 }
 .skill-number-10 {
@@ -102,5 +143,20 @@
   transition: 1s 5s;
 }
 .skill-number-10-active {
+  background-image: url("../png/photoshop.png");
+  background-repeat: no-repeat;
+  background-size: 35% auto;
+  background-position-y: 50%;
+  opacity: 1;
+}
+.skill-number-11 {
+  opacity: 0;
+  transition: 1s 5.5s;
+}
+.skill-number-11-active {
+  background-image: url("../png/alghoritms.png");
+  background-repeat: no-repeat;
+  background-size: 35% auto;
+  background-position-y: 50%;
   opacity: 1;
 }
