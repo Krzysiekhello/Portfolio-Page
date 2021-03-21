@@ -14,32 +14,32 @@
 .hooks-main > div:nth-child(1) {
   background-color: #607d8b;
 
-  width: 120px;
-  height: 120px;
+  width: 7.5rem;
+  height: 7.5rem;
 }
 
 .hooks-main > div:nth-child(2) {
   background-color: #ff1744;
-  width: 250px;
-  height: 250px;
+  width: 14rem;
+  height: 14rem;
 }
 
 .hooks-main > div::after {
   content: "";
   position: absolute;
-  top: 20px;
-  left: 20px;
-  width: 40px;
-  height: 40px;
+  top: 1.25rem;
+  left: 1.25rem;
+  width: 2.5rem;
+  height: 2.5rem;
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.8);
 }
 
 .hooks-main > div:nth-child(2)::after {
-  top: 70px;
-  left: 70px;
-  width: 70px;
-  height: 70px;
+  top: 4.375rem;
+  left: 4.375rem;
+  width: 4.375rem;
+  height: 4.375rem;
 }
 
 .hooks-main > div:nth-child(3)::after {

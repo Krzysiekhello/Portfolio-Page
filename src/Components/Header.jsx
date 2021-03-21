@@ -38,7 +38,7 @@ const Header = () => {
     });
   };
   return (
-    <div className="header">
+    <div className="header" header="header-section" id="header-section">
       <div className="rectangle"></div>
       <div className="rectangle-other-side"></div>
       <div className="hello-texts-div">

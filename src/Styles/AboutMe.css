@@ -1,11 +1,7 @@
-:root {
-  --primary-cyan: #b2ebf2;
-  --primary-black: #222733;
-  --secondary-black: #171b23;
-}
 .about-me-section {
   position: relative;
   min-height: 125vh;
+  font-family: "Roboto", sans-serif;
   color: var(--primary-cyan);
   background-color: var(--primary-black);
 }
@@ -16,7 +12,6 @@
 }
 .about-me-section figcaption {
   font-size: 1.25rem;
-  font-family: "Roboto", sans-serif;
 }
 .about-me {
   /* position: absolute; */
@@ -28,7 +23,7 @@
   position: absolute;
   left: -100%;
   width: 43.2%;
-  height: 315px;
+  height: 19.688rem;
   background-color: transparent;
 
   font-size: 1.25rem;
@@ -38,7 +33,7 @@
   position: absolute;
   right: -100%;
   width: 43.2%;
-  height: 315px;
+  height: 19.688rem;
   background-color: transparent;
 
   font-size: 1.25rem;
@@ -49,7 +44,7 @@
   left: -100%;
   width: 43.2%;
   top: 58%;
-  height: 315px;
+  height: 19.688rem;
   background-color: transparent;
   font-size: 1.25rem;
   transition: 1s;
@@ -59,14 +54,14 @@
   right: -100%;
   top: 58%;
   width: 43.2%;
-  height: 315px;
+  height: 19.688rem;
   background-color: transparent;
 
   font-size: 1.25rem;
   transition: 1s;
 }
 .about-me h2 {
-  margin-bottom: 20px;
+  margin-bottom: 1.25;
 }
 .description-rectangles {
   display: flex;

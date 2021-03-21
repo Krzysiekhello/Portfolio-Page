@@ -1,0 +1,106 @@
+.skills-section {
+  position: relative;
+  min-height: 100vh;
+  font-family: "Roboto", sans-serif;
+  background-color: var(--primary-black);
+  color: var(--primary-cyan);
+}
+
+.skills-section .title {
+  margin: 1.25rem 0 0 1.25rem;
+  font-size: 5rem;
+}
+
+.skills-div {
+  display: flex;
+
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+}
+.all-skills {
+  margin: 10px 0 20px 0;
+  text-align: center;
+  line-height: 50px;
+  height: 100px;
+  width: 23%;
+  font-size: 30px;
+}
+/* skills animations */
+.skill-number-0 {
+  opacity: 0;
+  transition: 1s;
+}
+.skill-number-0-active {
+  opacity: 1;
+}
+.skill-number-1 {
+  opacity: 0;
+  transition: 1s 0.5s;
+}
+.skill-number-1-active {
+  opacity: 1;
+}
+.skill-number-2 {
+  opacity: 0;
+  transition: 1s 1s;
+}
+.skill-number-2-active {
+  opacity: 1;
+}
+.skill-number-3 {
+  opacity: 0;
+  transition: 1s 1.5s;
+}
+.skill-number-3-active {
+  opacity: 1;
+}
+.skill-number-4 {
+  opacity: 0;
+  transition: 1s 2s;
+}
+.skill-number-4-active {
+  opacity: 1;
+}
+.skill-number-5 {
+  opacity: 0;
+  transition: 1s 2.5s;
+}
+.skill-number-5-active {
+  opacity: 1;
+}
+.skill-number-6 {
+  opacity: 0;
+  transition: 1s 3s;
+}
+.skill-number-6-active {
+  opacity: 1;
+}
+.skill-number-7 {
+  opacity: 0;
+  transition: 1s 3.5s;
+}
+.skill-number-7-active {
+  opacity: 1;
+}
+.skill-number-8 {
+  opacity: 0;
+  transition: 1s 4s;
+}
+.skill-number-8-active {
+  opacity: 1;
+}
+.skill-number-9 {
+  opacity: 0;
+  transition: 1s 4.5s;
+}
+.skill-number-9-active {
+  opacity: 1;
+}
+.skill-number-10 {
+  opacity: 0;
+  transition: 1s 5s;
+}
+.skill-number-10-active {
+  opacity: 1;
+}

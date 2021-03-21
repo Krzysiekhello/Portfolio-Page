@@ -8,7 +8,7 @@ const Buble = () => {
   const fast = { tension: 1200, friction: 40 };
   const slow = { mass: 10, tension: 200, friction: 50 };
   const trans = (x, y) => {
-    return `translate3d(${x}px,${y}px,0) translate3d(-50%,-50%,0)`;
+    return `translate3d(${x}px,${y}px,0) translate3d(-100%,-100%,0)`;
   };
   const [trail, set] = useTrail(3, () => ({
     xy: [0, 0],

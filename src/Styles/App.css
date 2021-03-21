@@ -1,3 +1,11 @@
+:root {
+  --primary-orange: #ff3e14;
+  --primary-cyan: #b2ebf2;
+  --primary-black: #222733;
+  --secondary-black: #171b23;
+  --primary-grey: #37474f;
+  --primary-green: #00796b;
+}
 .app {
   display: flex;
   flex-direction: column;

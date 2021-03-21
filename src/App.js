@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import AboutMe from "./Components/AboutMe";
 import Header from "./Components/Header.jsx";
 import Navbar from "./Components/Navbar.jsx";
+import Skills from "./Components/Skills";
 
 import "./Styles/App.css";
 
@@ -14,7 +15,8 @@ const App = () => {
         <Navbar />
       </div>
       <Header />
-      <AboutMe />
+      <AboutMe id="about-me" />
+      <Skills id="skills" />
     </div>
   );
 };
