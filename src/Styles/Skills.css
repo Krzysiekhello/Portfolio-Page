@@ -17,18 +17,18 @@
   list-style: none;
 }
 .all-skills {
-  margin: 10px 0 20px 0;
+  margin: 0.625rem 0 1.25rem 0;
   text-align: right;
-  line-height: 100px;
-  height: 100px;
+  line-height: 6.25rem;
+  height: 6.25rem;
   width: 23%;
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: 800;
 }
 .all-skills:hover {
   width: 24%;
-  height: 110px;
-  transition: 0.3s;
+  height: 6.875rem;
+  transition: 0.2s linear;
 }
 /* **************************************************skills animations */
 .skill-number-0 {
