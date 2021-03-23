@@ -8,23 +8,23 @@ const Navbar = () => {
   const scrollToHeader = () => {
     scroller.scrollTo("header-section", {
       duration: 1500,
-      delay: 100,
-      smooth: "easeOutQuad",
     });
   };
   const scrollToAboutMe = () => {
     scroller.scrollTo("waves", {
       duration: 1500,
-      delay: 100,
-      smooth: "easeOutQuad",
       offset: 110,
     });
   };
   const scrollToSkills = () => {
     scroller.scrollTo("skills-section", {
       duration: 1500,
-      delay: 100,
-      smooth: "easeOutQuad",
+      offset: -40,
+    });
+  };
+  const scrollToPortfolio = () => {
+    scroller.scrollTo("portfolio-section", {
+      duration: 1500,
       offset: -40,
     });
   };
@@ -51,7 +51,7 @@ const Navbar = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav me-auto mb-2 mb-lg-0 ml-auto">
+          <ul className="navbar-nav  mb-2 mb-lg-0 ml-auto">
             <li className="nav-item">
               <a
                 aria-current="page"
@@ -73,7 +73,11 @@ const Navbar = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a
+                className="nav-link"
+                href="#portfolio"
+                onClick={() => scrollToPortfolio()}
+              >
                 Portfolio
               </a>
             </li>

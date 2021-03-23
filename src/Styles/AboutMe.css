@@ -24,7 +24,7 @@
   left: -100%;
   width: 43.2%;
   height: 19.688rem;
-  background-color: transparent;
+  background-color: transparent !important;
 
   font-size: 1.25rem;
   transition: 1s;
@@ -34,7 +34,7 @@
   right: -100%;
   width: 43.2%;
   height: 19.688rem;
-  background-color: transparent;
+  background-color: transparent !important;
 
   font-size: 1.25rem;
   transition: 1s;
@@ -45,9 +45,9 @@
   width: 43.2%;
   top: 58%;
   height: 19.688rem;
-  background-color: transparent;
   font-size: 1.25rem;
   transition: 1s;
+  background-color: transparent !important;
 }
 .fourth-div {
   position: absolute;
@@ -55,7 +55,7 @@
   top: 58%;
   width: 43.2%;
   height: 19.688rem;
-  background-color: transparent;
+  background-color: transparent !important;
 
   font-size: 1.25rem;
   transition: 1s;

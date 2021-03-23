@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import AboutMe from "./Components/AboutMe";
 import Header from "./Components/Header.jsx";
 import Navbar from "./Components/Navbar.jsx";
+import Portfolio from "./Components/Portfolio";
 import Skills from "./Components/Skills";
 
 import "./Styles/App.css";
@@ -17,6 +18,7 @@ const App = () => {
       <Header />
       <AboutMe id="about-me" />
       <Skills id="skills" />
+      <Portfolio id="portfolio" />
     </div>
   );
 };

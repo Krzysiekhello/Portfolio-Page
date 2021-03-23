@@ -23,6 +23,7 @@ nav .navbar-brand {
 
   font-weight: 800;
 }
+
 @keyframes gradient {
   100% {
     background-position: 100%, 100%;
@@ -36,7 +37,7 @@ nav .gradient {
 /* *****************************************************Navbar-links */
 
 ul > li {
-  margin-left: 0.938rem;
+  margin-right: 0.938rem;
 }
 ul li a.contact {
   color: var(--primary-orange) !important;
@@ -54,7 +55,7 @@ ul li a.nav-link::after {
   content: "";
   /* display: block; */
   position: absolute;
-  right: -900%;
+  right: -2000%;
   bottom: -0.138rem;
   height: 0.125rem;
   width: 100%;

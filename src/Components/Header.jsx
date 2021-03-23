@@ -35,7 +35,6 @@ const Header = () => {
     scroller.scrollTo("waves", {
       duration: 1500,
       delay: 100,
-      smooth: " easeOutQuad",
       offset: 110,
     });
   };
