@@ -1,0 +1,27 @@
+.contactMe {
+  position: relative;
+  height: 100vh;
+  background-color: var(--primary-black);
+  background-image: url("../png//contact-slice.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.contact-div {
+  position: absolute;
+  width: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.contact-div button {
+  position: absolute;
+  right: 0;
+}
+.contact-div .text-area {
+  height: 120px;
+}
+.alert {
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+}

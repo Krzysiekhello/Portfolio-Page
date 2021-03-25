@@ -6,6 +6,7 @@
   background-color: #00796b;
   font-family: "Roboto", sans-serif;
   background-repeat: no-repeat;
+  
 }
 
 /* ****************************************Header-texts-div */
@@ -94,7 +95,6 @@
   top: 10%;
   transform: translate(-50%, 0);
   font-size: 1.25rem;
-  font-weight: 800;
   z-index: 2;
 }
 

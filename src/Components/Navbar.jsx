@@ -1,5 +1,7 @@
 import React from "react";
 
+import { Link } from "react-router-dom";
+
 import { scroller } from "react-scroll";
 
 import "../Styles/Navbar.css";
@@ -32,13 +34,14 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg navbar-dark fixed-top ">
       <div className="container">
         <div className="gradient"> </div>
-        <a
+        <Link
+          to="/"
           className="navbar-brand"
           href="#header-section "
           onClick={() => scrollToHeader()}
         >
           Welcome in my world of programming
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -53,38 +56,41 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav  mb-2 mb-lg-0 ml-auto">
             <li className="nav-item">
-              <a
+              <Link
+                to="/"
                 aria-current="page"
-                href="#about-me"
+                // href="#about-me"
                 onClick={() => scrollToAboutMe()}
                 className="nav-link"
               >
                 About Me
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a
+              <Link
+                to="/"
                 aria-current="page"
                 className="nav-link"
                 href="#skills"
                 onClick={() => scrollToSkills()}
               >
                 Skills
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a
+              <Link
+                to="/"
                 className="nav-link"
                 href="#portfolio"
                 onClick={() => scrollToPortfolio()}
               >
                 Portfolio
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link contact" href="#">
+              <Link to="/contact" className="nav-link contact">
                 Contact
-              </a>
+              </Link>
             </li>
             <span className="nav-indicator"></span>
           </ul>
